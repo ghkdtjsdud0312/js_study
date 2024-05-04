@@ -87,3 +87,19 @@ const person2 = {
 
 console.log(person2.languages[2]);
 console.log(person2.education.graduated);
+
+const groups = [
+  [1, 2],
+  [3, 4, 5],
+  [6, 7, 8, 9],
+];
+
+const weapons = [
+  { name: "롱소드", damage: 30, design: ["화룡검", "뇌신검"] },
+  { name: "활", damage: 12 },
+  { name: "워해머", damage: 48 },
+];
+
+console.log(groups[1][2]);
+console.log(weapons[2].damage);
+console.log(weapons[0].design[0]);
